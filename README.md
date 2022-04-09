@@ -5,8 +5,4 @@
 
 
 # 🛠️ Utilities
-Repository to store links, commands, tips and other usual stuff.
-
-### 💻 Softwares
-
-### 🔗 Links
+Repositório para armazenar links, comandos, dicas e outras coisas usuais.
