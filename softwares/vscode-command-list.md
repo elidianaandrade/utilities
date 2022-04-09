@@ -17,7 +17,7 @@ Atalho                                   | Função
 ---------------------------------------- | ---------------------------------------
 `Ctrl + Barra de espaço`                 | Abre menu de arquivos do repositório local
 `Alt + Shift + ⬇️`                       | Copia a linha atual para a inferior
-`Alt + K + C`                            | Transforma a seleção em comentário
+`Ctrl + K + C`                           | Transforma a seleção em comentário
 
 
 
