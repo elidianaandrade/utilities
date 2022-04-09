@@ -26,5 +26,20 @@ Comando                                   | Função
 `git branch`                              | Cria, lista ou exclui branches
 `git clone`                               | Clona um repositório
 `git pull`                                | Atualiza a branch local a partir da branch remota
+`git merge nomeDaBranch`                  | Mescla a branch atual com a descrita
+`git checkout main`                       | Alterna para a branch main
+
+<br>
+
+<!--
+## ⚙️ Funcionalidades básicas 
 
 
+```bash
+
+git pull origin nomeDaBranchAtual --allow-unrelated-histories
+
+#Em seguida adicione uma mensagem ou aperte ESC e digite :wq para fechar e salvar.
+```
+
+-->
