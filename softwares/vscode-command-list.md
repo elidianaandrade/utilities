@@ -5,10 +5,10 @@
 # 💻 Visual Studio Code
 👩‍💻 Editor de código-fonte.
 <br>
-📑 [Leia a documentação](https://git-scm.com/docs/git/pt_BR)
+📑 [Leia a documentação](https://code.visualstudio.com/docs)
 
 ## 🔗 Instalação
-⬇️ [Download VSCode](https://code.visualstudio.com/download).
+⬇️ [Download VS Code](https://code.visualstudio.com/download).
 
 
 ## ⌨️ Atalhos 
