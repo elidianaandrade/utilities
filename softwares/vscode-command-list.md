@@ -16,6 +16,7 @@
 Atalho                                   | Função
 ---------------------------------------- | ---------------------------------------
 `Ctrl + Barra de espaço`                 | Abre menu de arquivos do repositório local
+`Alt + ⬇️`                               | Inverte a posição da linha atual com a inferior
 `Alt + Shift + ⬇️`                       | Copia a linha atual para a inferior
 `Ctrl + K + C`                           | Transforma a seleção em comentário
 
