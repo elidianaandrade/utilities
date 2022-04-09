@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Git" height="100" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/git.svg">
+  <img alt="Git" height="100" src="https://git-scm.com/images/logos/downloads/Git-Logo-Black.png">
 </div>
 
 # 💻 Git
