@@ -6,8 +6,6 @@
 🗃 Sistema de controle de versões de arquivos distribuídas.
 <br>
 📑 [Leia a documentação](https://git-scm.com/docs/git/pt_BR)
-<br>
-⁉ [Introdução ao Git](https://github.com/elidianaandrade/dio-desafio-git-github/blob/main/introducao-git-github/anotacoes-git-conceito-e-comandos.md)
 
 ## 🔗 Instalação
 ⬇️ [Download Git](https://git-scm.com/).
