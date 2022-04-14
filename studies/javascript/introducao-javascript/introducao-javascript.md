@@ -88,8 +88,6 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 'RS 2.500,50'
 ```
 
----
-
 <br>
 
 ## ➕ Operadores
@@ -221,13 +219,8 @@ salário > 1500 && sexo != 'M'       // o salário é acima de 1500 e não é ho
 
 
 ### Ternário
-- Junta 3 operandos
-`teste` `?` `true` `:` `false`
-
-<br>
-
-Exemplo:
-`média >= 7.0` `?` `'Aprovado'` `:` `'Reprovado'`
+- Junta 3 operandos: `teste` `?` `true` `:` `false`
+- Exemplo: `média >= 7.0` `?` `'Aprovado'` `:` `'Reprovado'`
 
 ```javascript
 // Exemplo I
