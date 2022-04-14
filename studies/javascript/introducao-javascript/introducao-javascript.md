@@ -30,21 +30,30 @@ typeof                      | tipo de
 
  <br>
 
+### **Comentáros**
+- `//` para comentar uma única linha;
+- `/* */` para comentar mais de uma linha
+
+ <br>
+
 ## 🔡 Variáveis, Constantes e Tipos Primitivos
 
 ### **Identificadores**
-- O mais comum é iniciar com **letra**, mas também podem ser **$** ou **_**;
+- O mais comum é iniciar com **letra**, mas também podem ser **$** ou **_** ;
 - Não pode iniciar com número, mas é possível utilizar letras e números;
-- Não pode utilizar palavras reservadas, como **function** etc;
-- Não pode conter espaço entre as palavras;
+- Não pode utilizar **palavras reservadas**, como **function** etc.;
+- Não pode conter **espaço** entre as palavras;
 - Pode utilizar símbolos e acentos;
-- É case-sensitive (uso de maiúsculas e menúsculas fazem diferença);
+- É **case-sensitive** (uso de maiúsculas e menúsculas fazem diferença);
 - Adote nomes coerentes;
 
 ### **Variáveis**
+
 ```
-var
+var nome = prompt ('Qual é seu nome'?)
+
 let
+
 ```
 
 <br>
@@ -61,7 +70,7 @@ const
 
 Classificação               | Definição
 --------------------------- | ---------------------------------------
-string                      | sequências de caracteres alfanuméricos
+string                      | sequências de caracteres alfanuméricos ( `""`, `''`, ` `` ` )
 number                      | números (Infinity, NaN)
 bolean                      | true or false
 null                        | nulo

@@ -1,11 +1,11 @@
 /* CONCATENAÇÃO */
-var nome = "Elidiana";
-alert('Bem vinda ' + nome)
+// var nome = "Elidiana";
+var nome = prompt ('Qual o seu nome?');
+alert('Bem vindo (a) ' + nome)
 
-/* CONCATENANDO COM TEMPLATE STRING  */
-var adjetivo = "linda";
-alert(`Sua ${adjetivo}`)
+/* Concatenando com Template String */
+var idade = prompt ('Qual a sua idade?');
+alert(`Sua idade é ${idade} anos`)
 
-confirm ('Está gostando de JS?')
+confirm ('Está gostando de JS, ' + nome + '?')
 
-prompt ('Qual o seu nome?')
