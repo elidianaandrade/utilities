@@ -34,6 +34,7 @@ typeof                      | tipo de
 - `//` para comentar uma única linha;
 - `/* */` para comentar mais de uma linha
 
+
  <br>
 
 ## 🔡 Variáveis, Constantes e Tipos Primitivos
@@ -111,6 +112,8 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 'RS 2.500,50'
 ```
 
+---
+
 <br>
 
 ## ➕ Operadores
@@ -139,12 +142,13 @@ Operador  | Definição                                             |  Exemplo
 <br>
 
 **Ordem de precedência dos operadores aritméticos**
-1. ( )
-2. **
-3. / % *
-4. + -
+1. `( )`
+2. `**`
+3. `* / %`
+4. `+ -`
 
 <br>
+
 
 #### **Atribuições Simples**
 ```javascript 
@@ -172,12 +176,12 @@ n = n %  5        = 1
 
 // Simplificando
 var n = 3
-n +=  4        => n = n + 4
-n -=  5        => n = n - 5 
-n *=  4        => n = n *  4 
-n /=  2        => n = n /  2 
-n **= 2        => n = n ** 2
-n %=  5        => n = n %  5
+n +=  4        = n = n + 4
+n -=  5        = n = n - 5 
+n *=  4        = n = n *  4 
+n /=  2        = n = n /  2 
+n **= 2        = n = n ** 2
+n %=  5        = n = n %  5
 
 ```
 
@@ -189,8 +193,8 @@ x = x + 1        = 6  // x+=1
 x = x - 1        = 5 // x-=1
 
 // Simplificando ainda mais
-x += 1        => x++
-x -= 1        => x--
+x += 1        = x++
+x -= 1        = x--
 
 ```
 
@@ -204,24 +208,60 @@ n1 != n2                  // o primeiro número é diferente do segundo?
 
 #### **Identidade**
 ```javascript 
-5 == 5       => true
-5 == '5'     => true
-5 === '5'    => false
-5 === 5      => true
+5 == 5       = true
+5 == '5'     = true
+5 === '5'    = false
+5 === 5      = true
 
 ```
 
+
 #### **Lógicos**
 ```javascript 
+// Lógicos
 !       // negação
 &&      // conjunção (um e outro)
 ||      // disjunção (um ou outro)
 
+// Exemplos
+idade >= 15 && idade <= 17          // a idade está entre 15 e 17?
+estado == 'RJ' || estado == 'SP'    // o estado é RJ ou SP?
+salário > 1500 && sexo != 'M'       // o salário é acima de 1500 e não é homem?
+
 ```
+
+**Ordem de precedência**
+1. `( )`  `**`  `/`    ...
+2. `>` `<`  `>=`       ...
+3. `!`
+4. `&&`
+5. `||`
+
+
+### Ternário
+- Junta 3 operandos
+`teste` `?` `true` `:` `false`
+
+<br>
+
+Exemplo:
+`média >= 7.0` `?` `'Aprovado'` `:` `'Reprovado'`
+
+```javascript
+// Exemplo
+var média = 5.5
+`média >= 7.0` `?` `'Aprovado'` `:` `'Reprovado'`
+'Reprovado'
+
+```
+
+
+
+
 
 <br>
 
 ## 📚 Referências
-- Referência JavaScript da [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Curso de JavaScript do [Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
+- Referência JavaScript da [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Cursos de JavaScript da [Digital Innovation One](https://www.dio.me/)
