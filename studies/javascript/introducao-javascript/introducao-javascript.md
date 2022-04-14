@@ -134,7 +134,7 @@ Operador  | Definição                                             |  Exemplo
 
 <br>
 
-> Atente-se para a **precedência de operadores**. ExI.: 5 + 6 / 2 = 8. ExII.: (5 + 3) / 2 = 4.
+> Atente-se para a **precedência de operadores**. Ex.I: 5 + 6 / 2 = 8. Ex.II: (5 + 3) / 2 = 4.
 
 <br>
 
@@ -208,6 +208,14 @@ n1 != n2                  // o primeiro número é diferente do segundo?
 5 == '5'     => true
 5 === '5'    => false
 5 === 5      => true
+
+```
+
+#### **Lógicos**
+```javascript 
+!       // negação
+&&      // conjunção (um e outro)
+||      // disjunção (um ou outro)
 
 ```
 
