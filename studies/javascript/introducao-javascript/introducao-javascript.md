@@ -134,6 +134,52 @@ Operador  | Definição                                             |  Exemplo
 
 <br>
 
+> Atente-se para a **precedência de operadores**. ExI.: 5 + 6 / 2 = 8. ExII.: (5 + 3) / 2 = 4.
+
+<br>
+
+**Ordem de precedência dos operadores aritméticos**
+1. ( )
+2. **
+3. / % *
+4. + -
+
+<br>
+
+```javascript 
+// Atribuição Simples
+var a = 5 + 3              = 8
+var b = a % 5              = 3
+var c = 5 * b ** 2         = 45
+var d = 10 - a / 2         = 6
+var e = 6 * 2 / d          = 2
+var f = b % e + 4 / e      = 3
+
+```
+
+```javascript 
+// Auto-atribuições 
+var n = 3
+n = n +  4                  = 7
+n = n -  5                  = 2
+n = n *  4                  = 8
+n = n /  2                  = 4
+n = n ** 2                 = 16
+n = n %  5                  = 1 
+
+
+// Simplificando
+var n = 3
+n +=  4                     => n = n + 4
+n -=  5                     => n = n - 5 
+n *=  4                     => n = n *  4 
+n /=  2                     => n = n /  2 
+n **= 2                     => n = n ** 2
+n %=  5                     => n = n %  5
+
+```
+
+
 ## 📚 Referências
 - Referência JavaScript da [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Curso de JavaScript do [Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
