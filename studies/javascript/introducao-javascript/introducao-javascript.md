@@ -24,20 +24,17 @@
 
 ## ⌨ Comandos básicos 
 
+### **Comentáros**
+- `//` para comentar uma única linha;
+- `/* */` para comentar mais de uma linha
+
 Classificação               | Definição
 --------------------------- | ---------------------------------------
 typeof                      | tipo de 
 
  <br>
 
-### **Comentáros**
-- `//` para comentar uma única linha;
-- `/* */` para comentar mais de uma linha
-
-
- <br>
-
-## 🔡 Variáveis, Constantes e Tipos Primitivos
+## 🔡 Variáveis e Tipos Primitivos
 
 ### **Identificadores**
 - O mais comum é iniciar com **letra**, mas também podem ser **$** ou **_** ;
@@ -48,23 +45,6 @@ typeof                      | tipo de
 - É **case-sensitive** (uso de maiúsculas e menúsculas fazem diferença);
 - Adote nomes coerentes;
 
-### **Variáveis**
-
-```
-var nome = prompt ('Qual é seu nome'?)
-
-let
-
-```
-
-<br>
-
-### **Constantes**
-```
-const
-```
-
-<br>
 
 ### **Tipos primitivos**
 <br>
@@ -230,6 +210,12 @@ salário > 1500 && sexo != 'M'       // o salário é acima de 1500 e não é ho
 
 ```
 
+<br>
+
+> Atente-se para a **precedência de operadores**
+
+<br>
+
 **Ordem de precedência**
 1. `( )`  `**`  `/`    ...
 2. `>` `<`  `>=`       ...
@@ -248,15 +234,24 @@ Exemplo:
 `média >= 7.0` `?` `'Aprovado'` `:` `'Reprovado'`
 
 ```javascript
-// Exemplo
+// Exemplo I
 var média = 5.5
 `média >= 7.0` `?` `'Aprovado'` `:` `'Reprovado'`
 'Reprovado'
 
+
+// Exemplo II
+var x = 8
+var res = x % 2 == 0 ? 5 : 9
+res = 5
+
+
+// Exemplo III
+var r = idade >= 18 ? 'Maior' : 'Menor'
+idade = 15
+r = 'Menor'
+
 ```
-
-
-
 
 
 <br>
