@@ -78,6 +78,19 @@ undefined                   | não definido
 object                      | (Array)
 function                    | função 
 
+### **Formatando strings**
+```javascript
+var js = 'JavaScript' 
+'Eu estou aprendendo js' // não faz interpolação
+'Eu estou aprendendo' + js // usa concatenação
+`Eu estou aprendendo ${js}` // usa template string
+```
+```javascript
+var js = 'JavaScript' 
+js.length // quantos caracteres a string tem
+js.toUpperCase() // tudo para 'MAIÚSCULAS'
+js.toLowerCase() // tudo para 'minúsculas'
+```
 
 
 <br>
