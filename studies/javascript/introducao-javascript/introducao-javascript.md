@@ -92,10 +92,35 @@ js.toUpperCase() // tudo para 'MAIÚSCULAS'
 js.toLowerCase() // tudo para 'minúsculas'
 ```
 
+<br>
+
+### **Formatando números**
+```javascript
+var n1 = 2500.5
+n1
+
+n1.toFixed(2) // fixo com 2 casas
+2500.50
+
+n1.toFixed(2).replace('.',',') // substituindo ponto por vírgula
+2500,50
+```
+```javascript
+var n1 = 2500.5
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'RS 2.500,50'
+```
 
 <br>
 
 ## ➕ Operadores
+- aritméticos
+- atribuição
+- relacionais
+- lógicos
+- ternário
+
+### **Operadores Aritméticos**
 
 Operador  | Definição                                             |  Exemplo
 :-------: | ----------------------------------------------------- | -----------------------------------------------
