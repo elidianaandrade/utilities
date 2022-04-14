@@ -5,22 +5,23 @@
 <br>
 
 # 💻 Manipulando Document Object Model (DOM)
-📝 Document Object Model (DOM)
+🖥 Document Object Model (DOM)
 <br>
 📑 [Documentação ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) (linguagem JavaScript padronizada.)
 <br>
 📝 Anotações do Curso de JavaScript do [Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
 <br>
 
+
 ## 🌳 Árvore DOM
 <div align='center' >
-           **window**
+             window
               <br>
-location **document** history
+location    document   history
               <br>
                |
               <br>
-            **html**
+              html
               <br>
             head body
 </div>
