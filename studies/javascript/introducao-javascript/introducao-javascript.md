@@ -7,9 +7,7 @@
 # 💻 Introdução ao JavaScript
 👩‍💻 Linguagem de programação interpretada estruturada, de script, client side.
 <br>
-📑 [Documentação ECMAScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) (linguagem JavaScript padronizada)
-<br>
-📑 [Referência MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+📑 [Documentação ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) (linguagem JavaScript padronizada.)
 
 <br>
 
@@ -26,11 +24,22 @@
 
 ## ⌨ Comandos básicos 
 
-
+Classificação               | Definição
+--------------------------- | ---------------------------------------
+typeof                      | tipo de 
 
  <br>
 
 ## 🔡 Variáveis, Constantes e Tipos Primitivos
+
+### **Identificadores**
+- O mais comum é iniciar com **letra**, mas também podem ser **$** ou **_**;
+- Não pode iniciar com número, mas é possível utilizar letras e números;
+- Não pode utilizar palavras reservadas, como **function** etc;
+- Não pode conter espaço entre as palavras;
+- Pode utilizar símbolos e acentos;
+- É case-sensitive (uso de maiúsculas e menúsculas fazem diferença);
+- Adote nomes coerentes;
 
 ### **Variáveis**
 ```
@@ -47,14 +56,20 @@ const
 
 <br>
 
-### **Tipos Primitivos**
+### **Tipos primitivos**
 <br>
 
 Classificação               | Definição
 --------------------------- | ---------------------------------------
 string                      | sequências de caracteres alfanuméricos
-number                      | números
+number                      | números (Infinity, NaN)
 bolean                      | true or false
+null                        | nulo
+undefined                   | não definido
+object                      | (Array)
+function                    | função 
+
+
 
 <br>
 
