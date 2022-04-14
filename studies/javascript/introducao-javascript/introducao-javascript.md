@@ -28,10 +28,6 @@
 - `//` para comentar uma única linha;
 - `/* */` para comentar mais de uma linha
 
-Classificação               | Definição
---------------------------- | ---------------------------------------
-typeof                      | tipo de 
-
  <br>
 
 ## 🔡 Variáveis e Tipos Primitivos
@@ -252,7 +248,6 @@ idade = 15
 r = 'Menor'
 
 ```
-
 
 <br>
 
