@@ -8,7 +8,8 @@
 👩‍💻 Linguagem de programação interpretada estruturada, de script, client side.
 <br>
 📑 [Documentação ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) (linguagem JavaScript padronizada.)
-
+<br>
+📝 Anotações do Curso de JavaScript do [Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
 <br>
 
 ## ⏳︎ Breve histórico 
@@ -244,7 +245,7 @@ r = 'Menor'
 
 <br>
 
-## 📚 Referências
+## 📚 Referências e leituras adicionais
 - Curso de JavaScript do [Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
 - Referência JavaScript da [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Cursos de JavaScript da [Digital Innovation One](https://www.dio.me/)
