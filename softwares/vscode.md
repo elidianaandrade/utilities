@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Laptop Code" height="100" src="https://cdn.icon-icons.com/icons2/2389/PNG/512/visual_studio_code_logo_icon_144754.png">
+  <img alt="VS Code" height="100" src="https://cdn.icon-icons.com/icons2/2389/PNG/512/visual_studio_code_logo_icon_144754.png">
 </div>
 
 # 💻 Visual Studio Code
