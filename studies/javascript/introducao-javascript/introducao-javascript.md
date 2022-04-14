@@ -146,39 +146,72 @@ Operador  | Definição                                             |  Exemplo
 
 <br>
 
+#### **Atribuições Simples**
 ```javascript 
 // Atribuição Simples
-var a = 5 + 3              = 8
-var b = a % 5              = 3
-var c = 5 * b ** 2         = 45
-var d = 10 - a / 2         = 6
-var e = 6 * 2 / d          = 2
-var f = b % e + 4 / e      = 3
+var a = 5 + 3                = 8
+var b = a % 5                = 3
+var c = 5 * b ** 2           = 45
+var d = 10 - a / 2           = 6
+var e = 6 * 2 / d            = 2
+var f = b % e + 4 / e        = 3
 
 ```
 
+#### **Auto-atribuições**
 ```javascript 
 // Auto-atribuições 
 var n = 3
-n = n +  4                  = 7
-n = n -  5                  = 2
-n = n *  4                  = 8
-n = n /  2                  = 4
-n = n ** 2                 = 16
-n = n %  5                  = 1 
+n = n +  4        = 7
+n = n -  5        = 2
+n = n *  4        = 8
+n = n /  2        = 4
+n = n ** 2        = 16
+n = n %  5        = 1 
 
 
 // Simplificando
 var n = 3
-n +=  4                     => n = n + 4
-n -=  5                     => n = n - 5 
-n *=  4                     => n = n *  4 
-n /=  2                     => n = n /  2 
-n **= 2                     => n = n ** 2
-n %=  5                     => n = n %  5
+n +=  4        => n = n + 4
+n -=  5        => n = n - 5 
+n *=  4        => n = n *  4 
+n /=  2        => n = n /  2 
+n **= 2        => n = n ** 2
+n %=  5        => n = n %  5
 
 ```
 
+#### **Incremento**
+```javascript 
+// Incremento
+var x = 5
+x = x + 1        = 6  // x+=1
+x = x - 1        = 5 // x-=1
+
+// Simplificando ainda mais
+x += 1        => x++
+x -= 1        => x--
+
+```
+
+#### **Exemplos**
+```javascript 
+preço >= 100              // o preço é maior ou igual a 100?
+idade < 18                // a idade é menor do que 18?
+curso == 'JavaScript'     // o curso é JavaScript? 
+n1 != n2                  // o primeiro número é diferente do segundo?
+```
+
+#### **Identidade**
+```javascript 
+5 == 5       => true
+5 == '5'     => true
+5 === '5'    => false
+5 === 5      => true
+
+```
+
+<br>
 
 ## 📚 Referências
 - Referência JavaScript da [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
