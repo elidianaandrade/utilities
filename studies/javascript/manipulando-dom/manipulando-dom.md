@@ -15,15 +15,17 @@
 
 ## 🌳 Árvore DOM
 <div align='center' >
-             window
-              <br>
-location    document   history
-              <br>
-               |
-              <br>
-              html
-              <br>
-            head body
+            <b>window</b>
+                <br>
+location – <b>document</b> – history
+                <br>
+                  |
+                <br>
+             <b>html</b>
+                <br>
+                 |
+                <br>
+      <b>head</b> – <b>body</b>
 </div>
 
 <br>
