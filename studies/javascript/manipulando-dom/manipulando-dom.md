@@ -33,11 +33,6 @@ location – <b>document</b> – history
 ## 👩‍💻 Manipulando DOM
 
 
-
-
-
-
-
 <br>
 
 ## 📚 Referências e leituras adicionais
