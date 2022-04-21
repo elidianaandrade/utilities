@@ -66,7 +66,6 @@ git checkout main
 ```
 🛑 Caso exiba o erro: `error: pathspec 'main' did not match any file(s) known to git` dê um `git checkout -b main`
 
- <!--`git pull origin nomeDaBranchAtual --allow-unrelated-histories` em seguida adicione uma mensagem ou aperte ESC e digite `:wq` para fechar e salvar. -->
 
 ```bash
 # Mescle a branch main com a que deseja (nesse caso a que estava trabalhando e vai alterar pela main) 
@@ -87,3 +86,9 @@ git push origin --delete nomeDaBranch
 ```
 
 <br>
+
+### Solucionando o erro `fatal: refusing to merge unrelated histories`
+```bash
+git pull origin nomeDaBranchAtual --allow-unrelated-histories
+# Em seguida adicione uma mensagem ou aperte ESC e digite `:wq` para fechar e salvar
+```
