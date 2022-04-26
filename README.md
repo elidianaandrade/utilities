@@ -4,13 +4,22 @@
 
 
 
-# 🛠️ Utilities
+# Utilities
 Repositório para armazenar links, comandos, dicas e outras coisas usuais.
 
-## 🔗 Links
+### 🔗 Links
 - [CSS](https://github.com/elidianaandrade/utilities/blob/main/links/css-links.md)
 
 
-## 💻 Softwares
+### 💻 Softwares
 - [Git](https://github.com/elidianaandrade/utilities/blob/main/softwares/git-command-list.md)
 - [VS Code](https://github.com/elidianaandrade/utilities/blob/main/softwares/vscode-command-list.md)
+
+
+
+
+<div align="right">
+  <a href="#top">
+    <img alt="Up" height="25" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angle-up.svg">
+  </a>
+</div>
