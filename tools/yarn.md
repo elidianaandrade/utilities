@@ -20,6 +20,7 @@ Comandos                                 | Função
 `yarn add @material-ui/lab`              | 
 `yarn add customize-cra --dev`           | 
 `yarn add react-app-rewired --dev`       | 
+`yarn add @material-ui/core@next`        | 
 
 
 
