@@ -5,18 +5,173 @@
 
 
 # Utilities
-Repositório para armazenar links, comandos, dicas e outras coisas usuais.
+Repositório para armazenar links, tópicos, comandos, dicas e outras coisas usuais.
 
-### 🔗 Links
-- [CSS](https://github.com/elidianaandrade/utilities/blob/main/links/css-links.md)
+**Categorias:**<br>
+**Topics**: Resumos no formato de tópicos <br>
+**Links**: Referências externas utilitárias (links direcionando a sites, aplicativos etc.)
+
+## 👩‍💻 Languages and libraries
+Diretórios referentes a linguagens de programação, marcação, estilo etc, e bibliotecas.
+
+<table>
+    <!-- LINHA 0 -->
+    <tr>
+        <th>Linguagens</th>
+        <th>Tópicos</th>
+        <th>Links</th>
+    </tr>
+    <!-- LINHA 1 -->
+    <tr>
+        <td>
+           <a href="">
+            HTML
+           </a>
+        </td>
+        <td>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📑%20Basic-5058A1?style=for-the-badge&logo=none">
+           </a>
+        </td>
+        <td>
+          <a href="">
+            <img alt="Links" height="25" src="https://img.shields.io/badge/🔗%20Links-30A3DC?style=for-the-badge&logo=none">
+          </a>
+        </td>    
+     </tr>
+    <!-- LINHA 2 -->
+    <tr>
+        <td>
+           <a href="">
+            CSS
+           </a>
+        </td>
+        <td>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📑%20Basic-5058A1?style=for-the-badge&logo=none">
+           </a>
+        </td>
+        <td>
+          <a href="">
+            <img alt="Links" height="25" src="https://img.shields.io/badge/🔗%20Links-30A3DC?style=for-the-badge&logo=none">
+          </a>
+        </td>    
+      </tr>
+    <!-- LINHA 3 -->
+    <tr>
+        <td>
+           <a href="">
+            Java
+           </a>
+        </td>
+        <td>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📑%20Basic-5058A1?style=for-the-badge&logo=none">
+           </a>
+        </td>
+        <td>
+          <a href="">
+            <img alt="Links" height="25" src="https://img.shields.io/badge/🔗%20Links-30A3DC?style=for-the-badge&logo=none">
+          </a>
+        </td>    
+      </tr>
+    <!-- LINHA 4 -->
+    <tr>
+        <td>
+           <a href="">
+            JavaScript
+           </a>
+        </td>
+        <td>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📑%20Basic-5058A1?style=for-the-badge&logo=none">
+           </a>
+        </td>
+        <td>
+          <a href="">
+            <img alt="Links" height="25" src="https://img.shields.io/badge/🔗%20Links-30A3DC?style=for-the-badge&logo=none">
+          </a>
+        </td>    
+      </tr>
+    <!-- LINHA 0 -->
+    <tr>
+        <th>Bibliotecas</th>
+        <th>Tópicos</th>
+        <th>Utilitários</th>
+    </tr>
+    <!-- LINHA 1 -->
+    <tr>
+        <td>
+           <a href="">
+            React.js
+           </a>
+        </td>
+        <td>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📑%20Basic-5058A1?style=for-the-badge&logo=none">
+           </a>
+        </td>
+        <td>
+          <a href="">
+            <img alt="Links" height="25" src="https://img.shields.io/badge/🔗%20Links-30A3DC?style=for-the-badge&logo=none">
+          </a>
+        </td>    
+     </tr>
+</table>
+
+## ⚙ Tools
+Diretórios referentes softwares e outras ferramentas.
+
+<table>
+    <!-- LINHA 0 -->
+    <tr>
+        <th>Ferramentas</th>
+        <th>Tópicos</th>
+        <th>Links</th>
+    </tr>
+    <!-- LINHA 1 -->
+    <tr>
+        <td>
+           <a href="">
+            Git
+           </a>
+        </td>
+        <td>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/💻%20Command%20list-5058A1?style=for-the-badge&logo=none">
+           </a>
+        </td>
+        <td>
+          <a href="">
+            <img alt="Links" height="25" src="https://img.shields.io/badge/🔗%20Links-30A3DC?style=for-the-badge&logo=none">
+          </a>
+        </td>    
+     </tr>
+    <!-- LINHA 2 -->
+    <tr>
+        <td>
+           <a href="">
+            VS Code
+           </a>
+        </td>
+        <td>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/💻%20Command%20list-5058A1?style=for-the-badge&logo=none">
+           </a>
+        </td>
+        <td>
+          <a href="">
+            <img alt="Links" height="25" src="https://img.shields.io/badge/🔗%20Links-30A3DC?style=for-the-badge&logo=none">
+          </a>
+        </td>    
+      </tr>
+  </table>
+
+## 💻 Templates
 
 
-### 💻 Softwares
-- [Git](https://github.com/elidianaandrade/utilities/blob/main/softwares/git-command-list.md)
-- [VS Code](https://github.com/elidianaandrade/utilities/blob/main/softwares/vscode-command-list.md)
 
-
-
+<br>
 
 <div align="right">
   <a href="#top">
