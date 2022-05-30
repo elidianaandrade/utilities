@@ -42,7 +42,7 @@ Diretórios referentes a linguagens de programação, marcação, estilo etc, e 
     <!-- LINHA 2 -->
     <tr>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/languages-and-libraries/css">
             CSS
            </a>
         </td>
@@ -52,7 +52,7 @@ Diretórios referentes a linguagens de programação, marcação, estilo etc, e 
            </a>
         </td>
         <td>
-          <a href="">
+          <a href="https://github.com/elidianaandrade/utilities/blob/main/languages-and-libraries/css/css-links.md">
             <img alt="Links" height="25" src="https://img.shields.io/badge/🔗%20Links-30A3DC?style=for-the-badge&logo=none">
           </a>
         </td>    
@@ -78,12 +78,12 @@ Diretórios referentes a linguagens de programação, marcação, estilo etc, e 
     <!-- LINHA 4 -->
     <tr>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/languages-and-libraries/javascript">
             JavaScript
            </a>
         </td>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/languages-and-libraries/javascript/topics/basic-javascript">
              <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📑%20Basic-5058A1?style=for-the-badge&logo=none">
            </a>
         </td>
@@ -102,12 +102,12 @@ Diretórios referentes a linguagens de programação, marcação, estilo etc, e 
     <!-- LINHA 1 -->
     <tr>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/languages-and-libraries/reactjs">
             React.js
            </a>
         </td>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/languages-and-libraries/reactjs/topics">
              <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📑%20Basic-5058A1?style=for-the-badge&logo=none">
            </a>
         </td>
