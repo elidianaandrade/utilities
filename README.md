@@ -132,12 +132,12 @@ Diretórios referentes softwares e outras ferramentas.
     <!-- LINHA 1 -->
     <tr>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/tools/git">
             Git
            </a>
         </td>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/blob/main/tools/git/git.md">
              <img alt="Tópicos" height="25" src="https://img.shields.io/badge/💻%20Command%20list-5058A1?style=for-the-badge&logo=none">
            </a>
         </td>
@@ -150,12 +150,12 @@ Diretórios referentes softwares e outras ferramentas.
     <!-- LINHA 2 -->
     <tr>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/tools/vscode">
             VS Code
            </a>
         </td>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/blob/main/tools/vscode/vscode.md">
              <img alt="Tópicos" height="25" src="https://img.shields.io/badge/💻%20Command%20list-5058A1?style=for-the-badge&logo=none">
            </a>
         </td>
