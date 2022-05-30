@@ -168,7 +168,31 @@ Diretórios referentes softwares e outras ferramentas.
   </table>
 
 ## 💻 Templates
+Templates diversos.
 
+<table>
+    <!-- LINHA 0 -->
+    <tr>
+        <th>Tema</th>
+        <th>Tipos</th>
+    </tr>
+    <!-- LINHA 1 -->
+    <tr>
+        <td>
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/templates">
+            README
+           </a>
+        </td>
+        <td>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/👩%20Profile-5058A1?style=for-the-badge&logo=none">
+           </a>
+           <a href="">
+             <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📂%20Projects-5058A1?style=for-the-badge&logo=none">
+           </a>
+        </td>   
+     </tr>
+  </table>
 
 
 <br>
