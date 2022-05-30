@@ -174,7 +174,7 @@ Templates diversos.
     <!-- LINHA 0 -->
     <tr>
         <th>Tema</th>
-        <th>Tipos</th>
+        <th>Templates</th>
     </tr>
     <!-- LINHA 1 -->
     <tr>
