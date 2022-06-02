@@ -33,7 +33,7 @@ Comando                                   | Função
 
 ## ⚙️ Funcionalidades básicas 
 
-### Como subir um repositório local para a branch main do repositório remoto no GitHub?
+### Subir um repositório local para a branch main do repositório remoto no GitHub?
 📁 Clique com o botão direito na pasta e clique em **"Git Bash Here"**.
 ```bash
 # Transforme a pasta existente em um repositório
@@ -58,7 +58,7 @@ $ git push origin main
 
 <br>
 
-### Como alterar a branch em que estou trabalhando pela branch main?
+### Alterar a branch em que estou trabalhando pela branch main?
 📁 Clique com o botão direito na pasta do repositório local e clique em **"Git Bash Here"**.
 ```bash
 # Alterne para a branch main
@@ -92,6 +92,8 @@ git push origin --delete nomeDaBranch
 git pull origin nomeDaBranchAtual --allow-unrelated-histories
 # Em seguida adicione uma mensagem ou aperte ESC e digite `:wq` para fechar e salvar
 ```
+
+<br>
 
 ### Deletar histórico de commits no github
 
