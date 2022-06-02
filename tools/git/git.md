@@ -92,3 +92,19 @@ git push origin --delete nomeDaBranch
 git pull origin nomeDaBranchAtual --allow-unrelated-histories
 # Em seguida adicione uma mensagem ou aperte ESC e digite `:wq` para fechar e salvar
 ```
+
+### Deletar histórico de commits no github
+
+```bash
+git checkout --orphan latest_branch
+
+git add -A
+
+git commit -am "commit message"
+
+git branch -D main
+
+git branch -m main
+
+git push -f origin main
+```
