@@ -7,12 +7,13 @@
 # 💻 Introdução ao JavaScript
 👩‍💻 Linguagem de programação interpretada estruturada, de script, client side.
 <br>
-📑 [Documentação ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) (linguagem JavaScript padronizada.)
+📑 [Documentação ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) (linguagem JavaScript padronizada)
 <br>
-📝 Anotações do Curso de JavaScript do [Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
+📝 Anotações do Curso de JavaScript do [Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm) e dos Cursos de JavaScript da [Digital Innovation One](https://www.dio.me/)
+
 <br>
 
-## ⏳︎ Breve histórico 
+## ⏳︎ 1. Breve histórico 
 - Criado em 1995 por **Brendan Eich** a pedido da **Netscape**;
 - O pedido visava uma linguagem com **mais funcionalidades que o HTML**;
 - Batizada a princípio de linguagem Mocha, seguida de **LiveScript**;
@@ -23,17 +24,9 @@
 
 <br>
 
-## ⌨ Comandos básicos 
+## 🔡 2. Variáveis e constantes
 
-### **Comentáros**
-- `//` para comentar uma única linha;
-- `/* */` para comentar mais de uma linha
-
- <br>
-
-## 🔡 Variáveis e Tipos Primitivos
-
-### **Identificadores**
+### **2.1 Identificadores**
 - O mais comum é iniciar com **letra**, mas também podem ser **$** ou **_** ;
 - Não pode iniciar com número, mas é possível utilizar letras e números;
 - Não pode utilizar **palavras reservadas**, como **function** etc.;
@@ -42,8 +35,59 @@
 - É **case-sensitive** (uso de maiúsculas e menúsculas fazem diferença);
 - Adote nomes coerentes;
 
+<br>
 
-### **Tipos primitivos**
+Case Type                   | Exemplo
+--------------------------- | ---------------------------------------
+Original Variable as String | exemplo case type
+Camel Case                  | exemploCaseType **(utilizado para nomear funções e variáveis)**
+Snake Case                  | exemplo_case_type
+Kekab Case                  | exemplo-case-type
+Pascal Case                 | ExemploCaseType
+Upper Case Snake Case       | EXEMPLO_CASE_TYPE **(utilizado para nomear constantes)**
+
+<br>
+
+### **2.2 Var, let e const**
+
+
+Tipo      | Descrição            | Escopo          | Declaração      | Redeclaração             | Reatribuição            | [Hoisting](https://developer.mozilla.org/pt-BR/docs/Glossary/Hoisting)
+--------- | ---------------------|-----------------|-----------------|--------------------------|-------------------------|--------------
+**var**   | identifica variáveis | global ou local | camelCase       | pode ser redeclarada     | pode ser reatribuída    | faz hoisting
+**let**   | identifica variáveis | bloco           | camelCase       | não pode ser redeclarada | pode ser reatribuída    | não faz hoisting
+**const** | identifica constantes| bloco           | SNAKE_UPPER_CASE| não pode ser redeclarada | não pode ser reatribuída| não faz hoisting
+
+
+<br>
+
+```javascript
+var a = 1;
+var b = 2;
+
+if (a === 1) {
+  var a = 11; // o escopo é global
+  let b = 22; // o escopo é dentro do bloco if
+
+  console.log(a); // 11
+  console.log(b); // 22
+}
+
+console.log(a); // 11
+console.log(b); // 2
+```
+
+<br>
+
+> **Hoisting:** "as declarações de variável e função são colocadas na memória durante a fase de compilação. O JavaScript apenas eleva (hoists) as declarações, não as inicializações. Se uma variável for declarada e inicializada após usá-la, o valor será undefined. Se você declarar a variável depois que ela for usada, mas inicializá-la antecipadamente, ela retornará o valor." [Fonte: MDN](https://developer.mozilla.org/pt-BR/docs/Glossary/Hoisting). *Antes de utilizar **const**, deve declarar e atribuir um valor, e antes de usar **let** deve ao menos declarar.
+
+<br>
+
+## **3. Tipos**
+- JavaScript é uma linguagem de tipagem dinâmica, então ao declarar um valor **não** é necessário especificar o tipo dele;
+- A estrutura de dados é formada por dados primitivos e compostos / não primitivos.
+
+### **3.1 Tipos Primitivos**
+
 <br>
 
 Classificação               | Definição
@@ -56,7 +100,9 @@ undefined                   | não definido
 object                      | (Array)
 function                    | função 
 
-### **Formatando strings**
+<br>
+
+#### **3.1.1 Formatando strings**
 ```javascript
 var js = 'JavaScript' 
 'Eu estou aprendendo js' // não faz interpolação
@@ -72,7 +118,7 @@ js.toLowerCase() // tudo para 'minúsculas'
 
 <br>
 
-### **Formatando números**
+#### **3.1.2 Formatando números**
 ```javascript
 var n1 = 2500.5
 n1
@@ -91,14 +137,89 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 
 <br>
 
-## ➕ Operadores
+#### **3.1.4 Booleans**
+- True or false.
+
+```javascript
+let validation = 3 === 0 // false
+validation = 3 === 3 // true
+
+validation.toString()
+"true"
+
+!validation
+false
+```
+
+<br>
+
+#### **3.1.5 Arrays**
+- Lista iterável de elementos;
+- Primeiro índice é **0**.
+
+```javascript
+let array = []
+
+array.push() // adiciona um elemento no final da lista
+
+array.pop() // retira o último elemento do array
+
+array.shift() // retira o primeiro elemento do array
+
+array.unshift() // adiciona um elemento no começo da lista
+
+array.includes()
+
+array.every()
+
+array.length()
+
+array.some()
+
+array.reverse()
+```
+
+<br>
+
+#### **3.1.6 Objetos**
+- Estrutura do tipo chave e valor
+
+```javascript
+let person = {
+    name: 'Eli',  // name = chave, Eli = valor
+    age: 23       // age = chave, 23 = valor
+};
+
+Object.values(person)
+(2) ["Eli", 23]
+
+Object.keys(person)
+(2) ["name", "age"]
+
+person.name
+"Eli"
+
+person["name"]
+"Eli"
+```
+
+<br>
+
+#### **3.1.7 Empty, undefined e null**
+- empty = declarado, vazio, sem valor;
+- null = declarado, valor definido como nulo;
+- undefined = não declarado, valor indefinido.
+
+<br>
+
+## ➕ 4. Operadores
 - aritméticos
 - atribuição
 - relacionais
 - lógicos
 - ternário
 
-### **Operadores Aritméticos**
+### **4.1 Operadores Aritméticos**
 
 Operador  | Definição                                             |  Exemplo
 :-------: | ----------------------------------------------------- | -----------------------------------------------
@@ -116,7 +237,7 @@ Operador  | Definição                                             |  Exemplo
 
 <br>
 
-**Ordem de precedência dos operadores aritméticos**
+#### **4.1.1 Ordem de precedência dos operadores aritméticos**
 1. `( )`
 2. `**`
 3. `* / %`
@@ -125,7 +246,7 @@ Operador  | Definição                                             |  Exemplo
 <br>
 
 
-#### **Atribuições Simples**
+#### **4.1.2 Atribuições Simples**
 ```javascript 
 // Atribuição Simples
 var a = 5 + 3                = 8
@@ -137,7 +258,7 @@ var f = b % e + 4 / e        = 3
 
 ```
 
-#### **Auto-atribuições**
+#### **4.1.3 Auto-atribuições**
 ```javascript 
 // Auto-atribuições 
 var n = 3
@@ -160,7 +281,7 @@ n %=  5        = n = n %  5
 
 ```
 
-#### **Incremento**
+#### **4.1.4 Incremento**
 ```javascript 
 // Incremento
 var x = 5
@@ -173,7 +294,7 @@ x -= 1        = x--
 
 ```
 
-#### **Exemplos**
+#### **4.1.5 Exemplos**
 ```javascript 
 preço >= 100              // o preço é maior ou igual a 100?
 idade < 18                // a idade é menor do que 18?
@@ -181,7 +302,7 @@ curso == 'JavaScript'     // o curso é JavaScript?
 n1 != n2                  // o primeiro número é diferente do segundo?
 ```
 
-#### **Identidade**
+#### **4.1.6 Identidade**
 ```javascript 
 5 == 5       = true
 5 == '5'     = true
@@ -191,7 +312,7 @@ n1 != n2                  // o primeiro número é diferente do segundo?
 ```
 
 
-#### **Lógicos**
+#### **4.1.7 Lógicos**
 ```javascript 
 // Lógicos
 !       // negação
@@ -202,7 +323,6 @@ n1 != n2                  // o primeiro número é diferente do segundo?
 idade >= 15 && idade <= 17          // a idade está entre 15 e 17?
 estado == 'RJ' || estado == 'SP'    // o estado é RJ ou SP?
 salário > 1500 && sexo != 'M'       // o salário é acima de 1500 e não é homem?
-
 ```
 
 <br>
@@ -211,7 +331,7 @@ salário > 1500 && sexo != 'M'       // o salário é acima de 1500 e não é ho
 
 <br>
 
-**Ordem de precedência**
+#### **4.1.8 Ordem de precedência**
 1. `( )`  `**`  `/`    ...
 2. `>` `<`  `>=`       ...
 3. `!`
@@ -219,7 +339,8 @@ salário > 1500 && sexo != 'M'       // o salário é acima de 1500 e não é ho
 5. `||`
 
 
-### Ternário
+### **4.2 Ternário**
+
 - Junta 3 operandos: `teste` `?` `true` `:` `false`
 - Exemplo: `média >= 7.0` `?` `'Aprovado'` `:` `'Reprovado'`
 
@@ -240,7 +361,6 @@ res = 5
 var r = idade >= 18 ? 'Maior' : 'Menor'
 idade = 15
 r = 'Menor'
-
 ```
 
 <br>
