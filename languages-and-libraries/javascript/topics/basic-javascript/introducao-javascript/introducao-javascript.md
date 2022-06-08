@@ -86,6 +86,8 @@ console.log(b); // 2
 - JavaScript é uma linguagem de tipagem dinâmica, então ao declarar um valor **não** é necessário especificar o tipo dele;
 - A estrutura de dados é formada por dados primitivos e compostos / não primitivos.
 
+<br>
+
 ### **3.1 Tipos Primitivos**
 
 <br>
@@ -219,6 +221,8 @@ person["name"]
 - lógicos
 - ternário
 
+<br>
+
 ### **4.1 Operadores Aritméticos**
 
 Operador  | Definição                                             |  Exemplo
@@ -245,7 +249,6 @@ Operador  | Definição                                             |  Exemplo
 
 <br>
 
-
 #### **4.1.2 Atribuições Simples**
 ```javascript 
 // Atribuição Simples
@@ -257,6 +260,8 @@ var e = 6 * 2 / d            = 2
 var f = b % e + 4 / e        = 3
 
 ```
+
+<br>
 
 #### **4.1.3 Auto-atribuições**
 ```javascript 
@@ -281,6 +286,8 @@ n %=  5        = n = n %  5
 
 ```
 
+<br>
+
 #### **4.1.4 Incremento**
 ```javascript 
 // Incremento
@@ -294,6 +301,8 @@ x -= 1        = x--
 
 ```
 
+<br>
+
 #### **4.1.5 Exemplos**
 ```javascript 
 preço >= 100              // o preço é maior ou igual a 100?
@@ -301,6 +310,8 @@ idade < 18                // a idade é menor do que 18?
 curso == 'JavaScript'     // o curso é JavaScript? 
 n1 != n2                  // o primeiro número é diferente do segundo?
 ```
+
+<br>
 
 #### **4.1.6 Identidade**
 ```javascript 
@@ -311,6 +322,7 @@ n1 != n2                  // o primeiro número é diferente do segundo?
 
 ```
 
+<br>
 
 #### **4.1.7 Lógicos**
 ```javascript 
@@ -338,6 +350,8 @@ salário > 1500 && sexo != 'M'       // o salário é acima de 1500 e não é ho
 4. `&&`
 5. `||`
 
+
+<br>
 
 ### **4.2 Ternário**
 
@@ -367,5 +381,13 @@ r = 'Menor'
 
 ## 📚 Referências e leituras adicionais
 - Curso de JavaScript do [Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
-- Referência JavaScript da [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Cursos de JavaScript da [Digital Innovation One](https://www.dio.me/)
+- Referência JavaScript da [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+<br>
+
+<div align="right">
+  <a href="#top">
+    <img alt="Up" height="25" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angle-up.svg">
+  </a>
+</div>
