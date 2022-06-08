@@ -33,7 +33,7 @@ Comando                                   | Função
 
 ## ⚙️ Funcionalidades básicas 
 
-### Como subir um repositório local para a branch main do repositório remoto no GitHub?
+### Subir um repositório local para a branch main do repositório remoto no GitHub
 📁 Clique com o botão direito na pasta e clique em **"Git Bash Here"**.
 ```bash
 # Transforme a pasta existente em um repositório
@@ -58,7 +58,7 @@ $ git push origin main
 
 <br>
 
-### Como alterar a branch em que estou trabalhando pela branch main?
+### Alterar a branch em que estou trabalhando pela branch main
 📁 Clique com o botão direito na pasta do repositório local e clique em **"Git Bash Here"**.
 ```bash
 # Alterne para a branch main
@@ -87,8 +87,26 @@ git push origin --delete nomeDaBranch
 
 <br>
 
-### Solucionando o erro `fatal: refusing to merge unrelated histories`
+### Solucionar o erro `fatal: refusing to merge unrelated histories`
 ```bash
 git pull origin nomeDaBranchAtual --allow-unrelated-histories
 # Em seguida adicione uma mensagem ou aperte ESC e digite `:wq` para fechar e salvar
+```
+
+<br>
+
+### Deletar histórico de commits no github
+
+```bash
+git checkout --orphan latest_branch
+
+git add -A
+
+git commit -am "commit message"
+
+git branch -D main
+
+git branch -m main
+
+git push -f origin main
 ```

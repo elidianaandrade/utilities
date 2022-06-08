@@ -179,15 +179,15 @@ Templates diversos.
     <!-- LINHA 1 -->
     <tr>
         <td>
-           <a href="https://github.com/elidianaandrade/utilities/tree/main/templates">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/templates/README">
             README
            </a>
         </td>
         <td>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/templates/README">
              <img alt="Tópicos" height="25" src="https://img.shields.io/badge/👩%20Profile-5058A1?style=for-the-badge&logo=none">
            </a>
-           <a href="">
+           <a href="https://github.com/elidianaandrade/utilities/tree/main/templates/README">
              <img alt="Tópicos" height="25" src="https://img.shields.io/badge/📂%20Projects-5058A1?style=for-the-badge&logo=none">
            </a>
         </td>   
