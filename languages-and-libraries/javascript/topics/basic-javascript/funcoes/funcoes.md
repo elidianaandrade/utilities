@@ -173,6 +173,244 @@ getFullName(user)
 // John Doe
 ```
 
+## 🔁 4. Loops
+
+### **4.1 If / else**
+- If: onde consta a primeira declaração, que ocorre caso seja verdadeira;
+- Else: onde consta a segunda declaração, que ocorre caso a primeira seja falsa.
+- JavaScript não possui elseif, são sempre separadas;
+ 
+```javascript
+function numeroPositivo(num) {
+  let resultado;
+  
+  if(num < 0) {
+    resultado = false;
+  } else {
+    resultado = true;
+  }
+
+  return resultado;
+}
+
+numeroPositivo(4)
+// true
+
+numeroPositivo(-5)
+// false
+```
+
+
+```javascript
+function numeroPositivo(num) {
+  const ehNegativo = num < 0;
+  
+  if(ehNegativo) {
+    return false;
+  }
+
+  return true;
+}
+```
+
+```javascript
+function numeroPositivo(num) {
+  const ehNegativo = num < 0;
+  const maiorQueDez = num > 10;
+  
+  if(ehNegativo) {
+    return "Esse número é negativo!";
+  } else if (!ehNegativo && maiorQueDez) {
+    return "Esse número é positivo e maior que 10!"
+  }
+
+  return "Esse número é positivo!";
+}
+```
+
+### **4.2 Switch / case**
+- Compara tipo e valor (===);
+- É sempre necessário um valor "default";
+- Indicado quando se precisa comparar muitos valores.
+
+```javascript
+function getAnimal(id) {
+  switch(id) {
+    case 1:
+      return "cão";
+    case 2:
+      return "gato";
+    case 3:
+      return "pássaro";
+    default:
+      return "peixe";
+  }
+}
+
+getAnimal(1) // cão
+getAnimal(4) // peixe
+getAnimal("1") // peixe
+```
+
+### **4.3 for**
+- Loop dentro de elementos iteráveis (arrays, strings)
+
+```javascript
+function multiplicaPorDois(arr) {
+  let multiplicados = [];
+
+  for(let i = 0; i < arr.length; i++) {
+    multiplicados.push(arr[i] * 2);
+  }
+
+  return multiplicados;
+}
+
+const meusNumeros = [5, 20, 400, 254, 40];
+    
+multiplicadoPorDois(meusNumeros);
+// [10, 40, 800, 508, 80]
+```
+
+### **4.3.1 for...in**
+- Loop entre propriedades enumeráveis de um objeto;
+
+```javascript
+function forInExemplo(obj) {
+  for(prop in obj) {
+    console.log(prop);
+  }
+}
+
+const meuObjeto = {
+  nome: "Eli",
+  idade: "23",
+  cidade: "Savador"
+}
+
+forInExemplo(meuObjeto);
+// nome
+// idade
+// cidade
+```
+
+```javascript
+function forInExemplo(obj) {
+  for(prop in obj) {
+    console.log(obj[prop]);
+  }
+}
+
+const meuObjeto = {
+  nome: "Eli",
+  idade: "23",
+  cidade: "Savador"
+}
+
+forInExemplo(meuObjeto);
+// Eli
+// 23
+// Salvador
+```
+
+### **4.3.2 for...off**
+- Loop entre estruturas iteráveis (arrays, strings)
+
+```javascript
+function logLetras(palavra) {
+  for (letra of palavra) {
+    console.log(letra);
+  }
+}
+
+const palavra = "abacaxi";
+
+logLetras(palavra)
+// a
+// b
+// a
+// c
+// a
+// x
+// i
+```
+
+```javascript
+function logNumeros(nums) {
+  for (num of nums) {
+    console.log(num);
+  }
+}
+
+const nums = [30, 20, 233, 2]
+
+logLetras(nums)
+// 30
+// 20
+// 233
+// 2
+```
+
+### **4.4 While / do...while**
+
+#### **4.4.1 While**
+- Executa instruções até que a condição se torne falsa
+
+```javascript
+function exemploWhile() {
+  let num = 0
+
+  while(num <= 5){
+    console.log(num);
+    num++;
+  }
+}
+
+exemploWhile()
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+```
+
+#### **4.4.2 Do while**
+- Executa instruções até que a condição se torne falsa. Contudo a primeira execução sempre ocorre.
+
+```javascript
+function exemploDoWhile() {
+  let num = 0
+
+  do {
+    console.log(num);
+    num++;
+  } while(num <= 5)
+}
+
+exemploDoWhile()
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+```
+
+```javascript
+function exemploDoWhile() {
+  let num = 6
+
+  do {
+    console.log(num);
+    num++;
+  } while(num <= 5)
+}
+
+exemploDoWhile()
+// 6
+```
+
 <br>
 
 ## 📚 Referências e leituras adicionais
