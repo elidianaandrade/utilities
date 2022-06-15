@@ -104,6 +104,8 @@ console.log(resultSub); // -1
 console.log(resultSoma); // 3
 ```
 
+<br>
+
 ## 🔗 3. Parâmetros
 
 ### **3.1 Objeto "arguments**
@@ -173,12 +175,14 @@ getFullName(user)
 // John Doe
 ```
 
+<br>
+
 ## 🔁 4. Loops
 
 ### **4.1 If / else**
 - If: onde consta a primeira declaração, que ocorre caso seja verdadeira;
 - Else: onde consta a segunda declaração, que ocorre caso a primeira seja falsa.
-- JavaScript não possui elseif, são sempre separadas;
+- JavaScript não possui elseif, são sempre separadas.
  
 ```javascript
 function numeroPositivo(num) {
@@ -273,7 +277,7 @@ multiplicadoPorDois(meusNumeros);
 ```
 
 ### **4.3.1 for...in**
-- Loop entre propriedades enumeráveis de um objeto;
+- Loop entre propriedades enumeráveis de um objeto.
 
 ```javascript
 function forInExemplo(obj) {
@@ -314,7 +318,7 @@ forInExemplo(meuObjeto);
 ```
 
 ### **4.3.2 for...off**
-- Loop entre estruturas iteráveis (arrays, strings)
+- Loop entre estruturas iteráveis (arrays, strings).
 
 ```javascript
 function logLetras(palavra) {
@@ -354,7 +358,7 @@ logLetras(nums)
 ### **4.4 While / do...while**
 
 #### **4.4.1 While**
-- Executa instruções até que a condição se torne falsa
+- Executa instruções até que a condição se torne falsa.
 
 ```javascript
 function exemploWhile() {
@@ -409,6 +413,37 @@ function exemploDoWhile() {
 
 exemploDoWhile()
 // 6
+```
+
+<br>
+
+##  5. This
+- A palavra reservada This é uma referência de contexto.
+
+<br>
+
+## 🏹 6. Arrow functions
+- Caso a função possua apenas uma linha, não é necessário utilizar chaves e return;
+- Caso a função possua apenas um parâmetro, não é necessário utilizar os parênteses;
+- Não faz hoisting;
+- "This" sempre será o objeto global, métodos para alterar o valor não vão funcionar;
+- Não existe o objeto "arguments";
+- O construtor também não pode ser utilizado (ex.: new MeuObjeto()).
+
+```javascript
+const helloWorld = function() {
+  return "Hello World";
+} 
+```
+
+```javascript
+const helloWorld = () => {
+  return "Hello World";
+} 
+```
+
+```javascript
+const helloWorld = () => "Hello World";
 ```
 
 <br>
