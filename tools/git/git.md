@@ -102,7 +102,7 @@ git checkout --orphan latest_branch
 
 git add -A
 
-git commit -am "commit message"
+git commit -m "commit message"
 
 git branch -D main
 
